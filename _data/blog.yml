@@ -9,8 +9,8 @@
 - name: Linux
   href: /linux/
 
-- name: Server
-  href: /server/
+- name: Orm
+  href: /orm/
 
 - name: Database
   href: /database/
