@@ -15,14 +15,14 @@ icon: icon-html
 
  *# vi backup.sh*
 
-		TODAY=`/bin/date +%m-%d-%y_%H:%M`
-	
-		# 계정정보
-		USERNAME="MySQL 접속 계정"
-		PASSWORD="MYSQL 접속 비밀번호"
-		DATABASE="DUMP하려는 데이터베이스 이름"
-	
-		mysqldump -u$USERNAME -S /경로/mysqld1.sock -p$PASSWORD $DATABASE | gzip -c > /저장경로/mysql_backup/mysqldump-$TODAY.gz
+	TODAY=`/bin/date +%m-%d-%y_%H:%M`
+
+	# 계정정보
+	USERNAME="MySQL 접속 계정"
+	PASSWORD="MYSQL 접속 비밀번호"
+	DATABASE="DUMP하려는 데이터베이스 이름"
+
+	mysqldump -u$USERNAME -S /경로/mysqld1.sock -p$PASSWORD $DATABASE | gzip -c > /저장경로/mysql_backup/mysqldump-$TODAY.gz
 	
  *# sh backup.sh*
 
@@ -56,16 +56,16 @@ icon: icon-html
 
 **4. 백업 스크립트 실행***
 *# sh backup.sh*	
- dump 완료.
+  dump 완료.
+  
 
-
-> *** mysql_config_editor 정리 **
-
-> - **등록 내역 list 확인**
-	> *# mysql_config_editor print --all*
-> - **mysql 접속**
-	> *# mysql --login-path=dump_usr*
-> - **특정 접속 정보 삭제** 
-	> *# mysql_config_editor remove --login-path=dump_usr*
-> - **전체 정보 삭제**
-	>  *# mysql_config_editor remove* 
+	** mysql_config_editor 정리 *
+	
+	- **등록 내역 list 확인**
+		*# mysql_config_editor print --all*
+	- **mysql 접속**
+		*# mysql --login-path=dump_usr*
+	- **특정 접속 정보 삭제** 
+		*# mysql_config_editor remove --login-path=dump_usr*
+	- **전체 정보 삭제**
+		*# mysql_config_editor remove* 
