@@ -55,7 +55,9 @@ icon: icon-html
 	mysqldump --login-path=[명칭] -S /경로/mysqld1.sock  $DATABASE | gzip -c > /저장경로/mysql_backup/mysqldump-$TODAY.gz
 
 **4. 백업 스크립트 실행***
+
 *# sh backup.sh*	
+
  dump 완료.
 
 
