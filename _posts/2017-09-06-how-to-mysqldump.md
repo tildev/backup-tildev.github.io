@@ -61,13 +61,13 @@ icon: icon-html
  dump 완료.
 
 
-> **mysql_config_editor 정리 **
->
-> - **등록 내역 list 확인**
-> *# mysql_config_editor print --all*
-> - **mysql 접속**
-> *# mysql --login-path=dump_usr*
-> - **특정 접속 정보 삭제** 
-> *# mysql_config_editor remove --login-path=dump_usr*
-> - **전체 정보 삭제**
->  *# mysql_config_editor remove* 
+>>  **mysql_config_editor 정리 **
+>>
+>> - **등록 내역 list 확인**
+>> *# mysql_config_editor print --all*
+>> - **mysql 접속**
+>> *# mysql --login-path=dump_usr*
+>> - **특정 접속 정보 삭제** 
+>> *# mysql_config_editor remove --login-path=dump_usr*
+>> - **전체 정보 삭제**
+>>  *# mysql_config_editor remove* 
