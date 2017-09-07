@@ -13,7 +13,7 @@ icon: icon-html
 
 **1. 백업 스크립트를 만들자***
 
- *# vi backup.sh*
+ _# vi backup.sh_
 
 	TODAY=`/bin/date +%m-%d-%y_%H:%M`
 
@@ -24,7 +24,7 @@ icon: icon-html
 
 	mysqldump -u$USERNAME -S /경로/mysqld1.sock -p$PASSWORD $DATABASE | gzip -c > /저장경로/mysql_backup/mysqldump-$TODAY.gz
 	
- *# sh backup.sh*
+ _# sh backup.sh_
 
  쉘 스크립트를 실행하면,
 
@@ -35,8 +35,9 @@ icon: icon-html
 
 **2. password  노출 방지를 위해서 mysql_config_editor 를 사용하여 암호화된 파일을 만들어 사용하자***
 
- *# mysql_config_editor set --login-path=[명칭] --host=[localhost] --user=[root] --password*
- *Enter password:*
+ _# mysql_config_editor set --login-path=[명칭] --host=[localhost] --user=[root] --password_
+ 
+ _Enter password:_
 
  요청에 따라 password 입력하고 나면
 --login-path 명칭을 이용한 암호화된 로그인 파일을 사용할 준비가 되었다.
@@ -45,7 +46,7 @@ icon: icon-html
 
 **3. 백업 스크립트를 생성한 암호화된 로그인 방법으로 수정해주자***
 
- *# vi backup.sh*
+ _# vi backup.sh_
 	
 	TODAY=`/bin/date +%m-%d-%y_%H:%M`
 
@@ -56,7 +57,7 @@ icon: icon-html
 
 **4. 백업 스크립트 실행***
 
-*# sh backup.sh*	
+ _# sh backup.sh_
 
  dump 완료.
 
