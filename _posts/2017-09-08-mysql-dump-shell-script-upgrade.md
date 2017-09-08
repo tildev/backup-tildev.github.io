@@ -9,7 +9,7 @@ tags: [mysqldump,dump]
 icon: icon-html
 ---
 
-MySQL dump (mysql multi) - shell script upgrade
+**MySQL dump (mysql multi) - shell script upgrade**
 ===============================================
 
 1.백업 스크립트 편집
