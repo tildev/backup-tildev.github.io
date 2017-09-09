@@ -4,7 +4,7 @@ title:  "MySQL dump"
 date:   2017-09-06
 desc: "MySQL backup 을 위한 쉘 스크립트 작성 ( * dump 시의 -S 옵션은 mysql-multi 환경이기 때문에 사용함)"
 keywords: "mysqldump,dump,mysqlbackup"
-categories: [DATABASE]
+categories: [MYSQL]
 tags: [mysqldump,dump]
 icon: icon-html
 ---
