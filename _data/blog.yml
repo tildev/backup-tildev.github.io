@@ -12,8 +12,8 @@
 - name: Orm
   href: /orm/
 
-- name: Database
-  href: /database/
+- name: Mysql
+  href: /mysql/
 
 - name: Mac
   href: /mac/
