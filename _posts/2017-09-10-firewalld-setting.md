@@ -13,8 +13,8 @@ icon: icon-html
 ===============================================
 
 
-**CENTOS 7 설정**
-============
+	**CENTOS 7 설정**
+=
 
 허용할 포트나 ip 를 입력해주자.
 
@@ -34,8 +34,8 @@ icon: icon-html
 
 
 
-**CENTOS 6 설정**
-============
+	**CENTOS 6 설정**
+=
 
 *# vi /etc/sysconfig/iptables#
 
