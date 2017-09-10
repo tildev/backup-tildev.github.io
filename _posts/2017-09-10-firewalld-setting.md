@@ -15,7 +15,7 @@ icon: icon-html
 
 **CENTOS 7 설정**
 -----------------
----
+
 허용할 포트나 ip 를 입력해주자.
 
 *# vi /etc/firewalld/zones/allowlist.xml*
@@ -33,10 +33,10 @@ icon: icon-html
 *# firewall-cmd --reload*
 
 
-
+---
 **CENTOS 6 설정**
 -----------------
----
+
 *# vi /etc/sysconfig/iptables#
 
 ```
