@@ -12,6 +12,8 @@ icon: icon-html
 **MySQL dump (mysql multi)**
 ============================
 
+---
+
 **1. 백업 스크립트를 만들자**\*
 
 *# vi backup.sh*
