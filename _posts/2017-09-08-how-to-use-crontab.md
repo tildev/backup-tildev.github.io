@@ -4,7 +4,7 @@ title:  "crontab 으로 자동백업 하기"
 date:   2017-09-08
 desc: "Crontab 으로 자동백업 하기"
 keywords: "centOS7,backup,crontab"
-categories: [MYSQL]
+categories: [Mysql]
 tags: [centOS7,crontab]
 icon: icon-html
 ---

@@ -4,7 +4,7 @@ title:  "firewalld setting"
 date:   2017-09-10
 desc: "방화벽 설정하기"
 keywords: "centOS7,centOS6,firewalld,iptables"
-categories: [LINUX]
+categories: [Linux]
 tags: [firewalld,centOS7,iptables,centOS6]
 icon: icon-html
 ---

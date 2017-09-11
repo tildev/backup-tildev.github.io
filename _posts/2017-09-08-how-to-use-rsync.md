@@ -4,7 +4,7 @@ title:  "rsync 사용해서 원격서버에 백업하기"
 date:   2017-09-08
 desc: "rsync (remote sync)를 사용해서 원격서버에 백업하기"
 keywords: "centOS7,rsync,remote sync"
-categories: [LINUX]
+categories: [Linux]
 tags: [centOS7,rsync]
 icon: icon-html
 ---
