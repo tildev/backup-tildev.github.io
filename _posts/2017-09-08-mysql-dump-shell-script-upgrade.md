@@ -4,7 +4,7 @@ title:  "MySQL dump - 2 - shell script upgrade"
 date:   2017-09-08
 desc: "MySQL backup 을 위한 쉘 스크립트"
 keywords: "mysqldump,dump,mysqlbackup"
-categories: [Mysql]
+categories: [Mysql,Linux]
 tags: [mysqldump,dump]
 icon: icon-html
 ---
