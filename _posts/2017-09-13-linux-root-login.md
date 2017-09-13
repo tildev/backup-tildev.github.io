@@ -18,7 +18,7 @@ ssh root 접속을 차단하는 것이 좋다.
 
 permitrootlogin yse를 permitrootlogin no로 변경.
 
-# vi /etc/ssh/sshd_config
+*# vi /etc/ssh/sshd_config*
 
 ```
  # permitrootlogin yes 
