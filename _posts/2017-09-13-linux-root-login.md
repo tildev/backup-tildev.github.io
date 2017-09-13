@@ -4,8 +4,8 @@ title:  "linux root login"
 date:   2017-09-13
 desc: "linux 보안 mini tip"
 keywords: "linux,root,login"
-categories: [Mysql,Linux]
-tags: [mysqldump,dump]
+categories: [Linux]
+tags: [Linux,login]
 icon: icon-html
 ---
 
