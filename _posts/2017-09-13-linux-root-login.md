@@ -26,5 +26,4 @@ permitrootlogin yse를 permitrootlogin no로 변경.
 ```
  # permitrootlogin yes 
  permitrootlogin no
-
 ```
