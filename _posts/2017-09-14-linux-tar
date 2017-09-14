@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "linux tar 로 압축하기(.tgz)"
+date:   2017-09-14
+desc: "linux tar 로 압축하기(.tgz)"
+keywords: "linux,root,login"
+categories: [Linux]
+tags: [Linux,tar]
+icon: icon-html
+---
+
+**파일 압축하기**
+===============================================
+
+---
+
+*압축하기*
+
+*# tar cfvz 파일명.tgz 폴더경로/*
+
+---
+
+*압축풀기* - 압축파일.tgz 파일을 현재 폴더에 풀기
+
+*#tar xfvz 압축파일.tgz*
