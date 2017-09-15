@@ -14,14 +14,16 @@ icon: icon-html
 
 ---
 
- ssh 접속시 비밀번호 없이 로그인 할 유저를 만든다.
+**ssh 접속시 비밀번호 없이 로그인 할 유저를 만든다.**
+
 [root@localhost ~]# useradd user
 
 ---
 
- sudoers 설정을 해준다.
+**sudoers 설정을 해준다.**
 
 sudo visudo 로 /etc/sudoers 파일을 열어서 설정할 것 
+
 [root@localhost ~]# sudo visudo
 
 
@@ -37,7 +39,7 @@ user	ALL=(ALL)	NOPASSWD:ALL
 
 ---
 
- user 로 로그인 해서 public key 등록하기
+**user 로 로그인 해서 public key 등록하기**
 
 [root@localhost ~]# sudo su - user
 [user@localhost ~]$ pwd
