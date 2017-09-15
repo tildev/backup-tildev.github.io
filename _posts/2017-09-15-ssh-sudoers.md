@@ -70,6 +70,7 @@ id_rsa.pub 의 내용을 저 authorized_keys 안에 복사해서 붙여넣기 �
 단, 권한 설정이
 
 [user@localhost ~]$ chmod 700 ~/.ssh/
+
 [user@localhost ~]$ chmod 600 ~/.ssh/authorized_keys
 
 이렇게 되어있어야 한다.
