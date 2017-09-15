@@ -42,16 +42,23 @@ user	ALL=(ALL)	NOPASSWD:ALL
 **user 로 로그인 해서 public key 등록하기**
 
 [root@localhost ~]# sudo su - user
+
 [user@localhost ~]$ pwd
+
 /home/user
+
 [user@localhost ~]$ mkdir .ssh
+
 [user@localhost ~]$ cd .ssh
+
 [user@localhost .ssh]$ vi authorized_keys
 
 이 authorized_keys 안에 접속할 pc의 public key 를 등록해 주면 되는데, 
 키가 없을 경우
-ssh-keygen -t rsa
-로 키를 생성해주면
+
+[user@localhost .ssh]$ ssh-keygen -t rsa
+
+로 키를 생성해주면,
  개인키는 ~/.ssh/id_rsa로 공개키는 ~/.ssh/id_rsa.pub로 생성된다.
 
 id_rsa.pub 의 내용을 저 authorized_keys 안에 복사해서 붙여넣기 해 주면 된다.
