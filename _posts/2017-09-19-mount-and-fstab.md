@@ -61,21 +61,23 @@ icon: icon-html
 
 3 \- 파일시스템 종류
 
-- \* 참조 \- 리눅스 파일 시스템 확인
-- 마운트 후에 확인 한다면
--    # df -Th
-- 마운트 전에 확인 한다면
--    # blkid
+```
+ * 참조 - 리눅스 파일 시스템 확인
+	 마운트 후에 확인 한다면
+		-> # df -Th
+	 마운트 전에 확인 한다면
+		-> # blkid
+```
 
 4 \- 마운트 옵션 (자주 사용하는 몇 가지만)
 
 ```
-    default : rw, nouser, auto, exec, suid
-    rw : 읽기, 쓰기 전용으로 설정
-    nouser : root만 마운트 가능
-    auto : 부팅시 자동 마운트
-    exec : 실행가능
-    suid : SetUID, SetGID 허용 
+ default : rw, nouser, auto, exec, suid
+ rw : 읽기, 쓰기 전용으로 설정
+ nouser : root만 마운트 가능
+ auto : 부팅시 자동 마운트
+ exec : 실행가능
+ suid : SetUID, SetGID 허용 
 ```
 
 5 \- dump 여부
