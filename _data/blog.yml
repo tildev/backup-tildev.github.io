@@ -18,8 +18,8 @@
 - name: Mac
   href: /mac/
 
-- name: Life
-  href: /life/
+- name: Todo
+  href: /todo/
 
 # Don't display donation page: change donation to off at file '_config.yml'
 - name: Donate
