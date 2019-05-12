@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: GitHub, Java, HTML5, Spring, MySQL, CentOS, Server
-percentage: 5, 30, 30, 30, 30, 10, 50
+aspects: GitHub, Java, HTML5, Spring, MySQL, React
+percentage: 5, 8, 5, 5, 5, 3
