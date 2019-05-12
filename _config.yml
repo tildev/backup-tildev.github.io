@@ -2,7 +2,7 @@
 
 # Website settings
 title: tildev
-description: tildev's blog,use Jekyll and github pages.
+description: tildev's blog, use Jekyll and github pages.
 keywords: tildev,blog,Jekyll,github,gh-pages
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://tildev.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -12,9 +12,9 @@ img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/
 # author -- index page "about me" section
 author:  # change following line to your infomation.
   name: tildev # Be used at blog posts' author.
-  first_name: Eunji  # Be used at index page about me section.
+  first_name: Ann  # Be used at index page about me section.
   last_name: Lee  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.png  # upload your avatar at directory and edit it.
   github_username:  # Leave blank if you don't have now
   linkedin_id:  # Leave blank if you don't have now
   facebook_username:   # Leave blank if you don't have now
